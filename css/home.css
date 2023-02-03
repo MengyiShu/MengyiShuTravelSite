@@ -112,7 +112,7 @@
     background-image: url('../Assets/Images/greece.jpg');
     background-size: cover;border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
         margin: 20px;
 }
 .rec-p{
@@ -122,4 +122,21 @@
     color: #FFFFFF;
     font-weight: 600;
     padding: 10px;
+}
+.rec-title{
+    color:#335576;
+    padding:20px;
+    margin:20px;
+    text-align: left;
+}
+
+
+/*footer*/
+.footer{
+    display:flex;
+    background-color: #FEFAF5;
+    justify-content: space-around;
+}
+.footer-title{
+    color:#335576;
 }
