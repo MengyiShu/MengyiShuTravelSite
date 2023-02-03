@@ -1,0 +1,125 @@
+/*Home Navigation bar*/
+.homenav{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+    width:100%;
+    margin:-8px -8px;
+
+}
+.homenav-title{
+    font-size: 2.063rem;
+    margin:0.625rem;
+    padding: 0.625rem;
+    color:#335576;
+}
+.homenav-item{
+    display: inline-block;
+    margin:1.25rem;
+    padding: 0.625rem;
+}
+.homenav-link{
+    text-decoration: none;
+    color:black;
+}
+.homenav-selected{
+    text-underline-offset: 0.625rem;
+    text-decoration-style: solid;
+    text-decoration: underline #DB7A4E;
+
+}
+
+/*Main Section*/
+.hero{
+    display: flex;
+    background-color: #FEFAF5;
+    margin:-8px;
+}
+.hero-left{
+    margin: 20px;
+    padding:20px;
+    width:50%;
+    height: 35vh;
+}
+.hero-right{
+    margin: 20px;
+    padding:20px;
+    width:50%;
+    height: 35vh;
+}
+.hero-title{
+    color:#335576;
+    text-align: left;
+}
+.hero-p{
+    color:#335576;
+    text-align: left;
+
+}
+.hero-img{
+    height: 30vh;
+}
+.hero-box{
+    background-color: #DB7A4E;
+    border-radius: 25% / 100%;
+    border: none;
+    padding: 10px 20px;
+}
+.hero-link{
+    text-align: center;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.hero-button{
+    text-align: left;
+}
+
+
+/*RecommandationSection*/
+.rec{
+    display: flex;
+    justify-content: center;
+}
+.rec-Hawaii{
+    width:12.5rem;
+    height:18.75rem;
+    background-image: url('../Assets/Images/hawaii.jpg');
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
+    margin:20px;
+
+}
+.rec-Iceland {
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 1px solid black;
+    background-image: url('../Assets/Images/iceland.jpg');
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+.rec-Greece {
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 1px solid black;
+    background-image: url('../Assets/Images/greece.jpg');
+    background-size: cover;border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
+        margin: 20px;
+}
+.rec-p{
+    position:relative;
+    text-align: right;
+    top:250px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px;
+}
