@@ -97,6 +97,25 @@ body {
     width: 100%;
 }
 
+.activity-item {
+    background-color: #FEFAF5;
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+}
+
+.activity-list {
+    box-sizing: content-box;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+
+}
+
 
 /*footer*/
 .footer {
