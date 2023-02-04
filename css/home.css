@@ -1,3 +1,10 @@
+body{
+    margin:0px;
+    width:100%;
+    height: 100%;
+}
+
+
 /*Home Navigation bar*/
 .homenav{
     background-color: #FFFFFF;
@@ -14,7 +21,6 @@
     font-size: 2.063rem;
     margin:0.625rem;
     padding: 0.625rem;
-    color:#335576;
 }
 .homenav-item{
     display: inline-block;
@@ -28,8 +34,12 @@
 .homenav-selected{
     text-underline-offset: 0.625rem;
     text-decoration-style: solid;
-    text-decoration: underline #DB7A4E;
+    text-decoration: underline 5px #DB7A4E;
 
+}
+.homenav-logolink{
+    text-decoration: none;
+    color: #335576;
 }
 
 /*Main Section*/
@@ -136,7 +146,68 @@
     display:flex;
     background-color: #FEFAF5;
     justify-content: space-around;
+
 }
 .footer-title{
+    color:#335576;
+    text-align: center;
+}
+.footer-subtitle{
+    color:#DB7A4E;
+    text-align:center;
+}
+.footer-hours{
+    width:60%;
+    text-align: center;
+    align-items: center;
+}
+.footer-contact {
+    text-align: center;
+}
+.footer-timetable {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-email{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content{
+    color:#335576;
+}
+.footer-left{
+    width:30%;
+    display: inline-block;
+    margin:5px;
+}
+.footer-mid{
+    width:30%;
+    display: inline-block;
+    margin:5px;
+}
+.footer-right{
+    width:30%;
+    display: inline-block;
+    margin:5px;
+}
+.footer-row{
+    float:left;
+    width:100%;
+}
+
+.footer-img{
+    width: 20px;
+    height: 25px;
+}
+.footer-imgcontainer{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.footer-social{
+    width:20%;
+}
+.footer-content{
     color:#335576;
 }
