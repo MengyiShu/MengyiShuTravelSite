@@ -139,6 +139,9 @@ body{
     margin:20px;
     text-align: left;
 }
+.rec-link{
+    text-decoration: none;
+}
 
 
 /*footer*/
