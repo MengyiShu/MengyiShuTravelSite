@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
-    margin: -8px -8px;
+    margin: -0.5rem 0.5rem;
 
 }
 
@@ -38,7 +38,7 @@ body {
 .homenav-selected {
     text-underline-offset: 0.625rem;
     text-decoration-style: solid;
-    text-decoration: underline 5px #DB7A4E;
+    text-decoration: underline 0.313rem #DB7A4E;
 
 }
 
@@ -66,35 +66,35 @@ body {
 
 .activity-subtitle {
     text-align: center;
-    border-bottom: 5px solid black;
+    border-bottom: 0.313rem solid black;
 }
 
 .activity-item {
     background-color: #FEFAF5;
     text-align: center;
     list-style-type: none;
-    width:100%;
-    margin:15px;
-    padding:15px;
+    width: 100%;
+    margin: 0.938rem;
+    padding: 0.938rem;
 }
 .activity-list{
     box-sizing: content-box;
     display: flex;
-    padding:10px;
+    padding:0.625rem;
     flex-direction: column;
-    margin:10px;
+    margin:0.625rem;
     align-items: center;
 
 }
 
 .activity-card {
-    width: 250px;
-    height: 400px;
+    width: 15.625rem;
+    height: 25rem;
     background-color: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
-    margin: 20px;
+    border: 0.063rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.313rem;
+    box-shadow: 0px 0.25rem 0.25rem -0.063rem rgba(0, 0, 0, 0.5);
+    margin: 1.25rem;
 
 }
 
@@ -102,8 +102,8 @@ body {
 
 .activity-title {
     color: #FFFFFF;
-    padding: 20px;
-    margin: 20px;
+    padding: 1.25rem;
+    margin: 1.25rem;
     text-align: left;
     width: 100%;
 }
@@ -154,19 +154,19 @@ body {
 .footer-left {
     width: 30%;
     display: inline-block;
-    margin: 5px;
+    margin: 0.313rem;
 }
 
 .footer-mid {
     width: 30%;
     display: inline-block;
-    margin: 5px;
+    margin: 0.313rem;
 }
 
 .footer-right {
     width: 30%;
     display: inline-block;
-    margin: 5px;
+    margin: 0.313rem;
 }
 
 .footer-row {
@@ -175,14 +175,14 @@ body {
 }
 
 .footer-img {
-    width: 20px;
-    height: 25px;
+    width: 1.25rem;
+    height: 1.563rem;
 }
 
 .footer-imgcontainer {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .footer-social {

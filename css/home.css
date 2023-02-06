@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: baseline;
     width:100%;
-    margin:-8px -8px;
+    margin:-0.5rem 0.5rem;
 
 }
 .homenav-title{
@@ -46,17 +46,17 @@ body{
 .hero{
     display: flex;
     background-color: #FEFAF5;
-    margin:-8px;
+    margin:-0.5rem;
 }
 .hero-left{
-    margin: 20px;
-    padding:20px;
+    margin: 1.25rem;
+    padding:1.25rem;
     width:50%;
     height: 35vh;
 }
 .hero-right{
-    margin: 20px;
-    padding:20px;
+    margin: 1.25rem;
+    padding:1.25rem;
     width:50%;
     height: 35vh;
 }
@@ -76,7 +76,7 @@ body{
     background-color: #DB7A4E;
     border-radius: 25% / 100%;
     border: none;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
 }
 .hero-link{
     text-align: center;
@@ -98,11 +98,10 @@ body{
     height:18.75rem;
     background-image: url('../Assets/Images/hawaii.jpg');
     background-size: cover;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
-    margin:20px;
-
+    border: 0.063rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.313;
+    box-shadow: 0px 0.25rem 0.25rem -0.063rem rgba(0, 0, 0, 0.5);
+    margin:1.25rem;
 }
 .rec-Iceland {
     width: 12.5rem;
@@ -110,10 +109,10 @@ body{
     border: 1px solid black;
     background-image: url('../Assets/Images/iceland.jpg');
     background-size: cover;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.5);
-    margin: 20px;
+    border: 0.063rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.313;
+    box-shadow: 0px 0.25rem 0.25rem -0.063rem rgba(0, 0, 0, 0.5);
+     margin: 1.25rem;
 }
 .rec-Greece {
     width: 12.5rem;
@@ -121,9 +120,11 @@ body{
     border: 1px solid black;
     background-image: url('../Assets/Images/greece.jpg');
     background-size: cover;border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
-        margin: 20px;
+    background-size: cover;
+    border: 0.063rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.313;
+    box-shadow: 0px 0.25rem 0.25rem -0.063rem rgba(0, 0, 0, 0.5);
+    margin: 1.25rem;
 }
 .rec-p{
     position:relative;
